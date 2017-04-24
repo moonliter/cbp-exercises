@@ -1,0 +1,75 @@
+body {
+    background-color:red;
+}
+h1 {color: blue;}
+a {
+    font-weight: bold;
+    color: blue;
+}
+a {
+    color: white;
+    background-color: black;
+}
+#biography{
+    background-color: #9295ce;
+}
+p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+table {
+    margin: 0 auto;
+}
+.green-headline {
+    color: green;
+}
+table td {
+    background-color: orange
+}
+table tr:nth-child(2n) td {
+    background-color: green;
+}
+td:hover {
+    color: white
+}
+table[border="1"] {
+    border-color: red;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.blue {
+    color: blue;
+}
+p.blue a {
+    background-color: yellow;
+}
+p.red a {
+    background-color: white;
+}
+p.green a {
+    background-color: white;
+}
+
+ul li.seen {
+    color: silver;
+}
+ul li.unseen {
+    color: greenyellow;
+}
+ul li.seen.good {
+    color: green;
+}
+h1, h2 {
+    
+    text-decoration: underline;
+}
+h1:hover,
+h2:hover {
+    text-decoration: none;
+}
+
+

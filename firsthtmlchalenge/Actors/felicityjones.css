@@ -1,0 +1,129 @@
+body {
+    background-color: red;
+    width: 100%; max-width: 1000; margin: 0 auto;
+    font-family: 'Arima Madurai', cursive;
+    text-align: justify
+    }
+    h1 {
+    text-align: center;
+    }
+    .header img {
+  display:block;
+        margin-left: auto;
+        margin-right: auto;
+  float: center;
+  width: 100px;
+  height: 100px;
+  background: red;
+ }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.first-part {
+	float: left;
+	margin-left: 20%;
+}
+.block {
+	background-color: whitesmoke;
+	overflow: hidden;
+}
+h2 {
+	font-size: 1.7em;
+}
+.bio {
+	clear: both;
+	background-color: whitesmoke;
+}
+h2, h3 {
+	color: darkred;
+}
+.films {
+	width: 500px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: green;
+	text-decoration: underline;
+}
+a:visited {
+	color: #9A32CD;
+}
+@media screen and (min-width: 1000px) {
+	body {
+		text-align: center;
+	}
+	.films {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #8b0000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Arima Madurai', cursive;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.top {
+    float: right;
+    text-underline-position: none;
+    color: white; 
+    font-size: 16px;
+
+}
+

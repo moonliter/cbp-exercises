@@ -1,0 +1,68 @@
+body {
+    background-color: red;
+    width: 100%; max-width: 1000; margin: 0 auto;
+    font-family: 'Arima Madurai', cursive;
+    text-align: justify
+    
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    color: #8b0000;
+}
+
+h3 {
+    color: #8b0000;
+}
+
+    .header img {
+  display:block;
+        margin-left: auto;
+        margin-right: auto;
+  float: center;
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+.block_1, .block_2 {
+	background-color: whitesmoke;
+}
+.block_2 {
+	overflow: hidden;
+}
+.movie {
+	float: left;
+	margin-left: 20%;
+}
+.actor {
+	float: right;
+	margin-right: 20%;
+}
+.bold {
+    font-weight: bold
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
