@@ -1,0 +1,24 @@
+#page {
+    
+    margin: 0 auto;
+    background-color:silver;
+    overflow: hidden;
+}
+#menu {
+    float: left;
+    max-width: 10em;
+    margin-right: 1em;
+
+}
+#sidebar {
+    float: right;
+    width: 10em;
+    margin: 5em;
+}
+#main {
+    margin-left: 11em;
+    margin-right: 11em;
+}
+footer {
+    clear: both;
+}

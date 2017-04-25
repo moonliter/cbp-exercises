@@ -2,7 +2,7 @@ body {
     background-color: red;
     width: 100%; max-width: 1000; margin: 0 auto;
     font-family: 'Arima Madurai', cursive;
-    text-align: justify
+    
     
 }
 
@@ -33,14 +33,7 @@ h3 {
 .block_2 {
 	overflow: hidden;
 }
-.movie {
-	float: left;
-	margin-left: 20%;
-}
-.actor {
-	float: right;
-	margin-right: 20%;
-}
+
 .bold {
     font-weight: bold
 }
@@ -67,3 +60,33 @@ li a {
 li a:hover {
     background-color: #111;
 }
+   .r1bdr {
+    padding: 0em;
+    border: 0.1em solid #8b0000;
+    margin: 0.1em;
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    
+
+}
+.r2bdr {
+    padding: 0em;
+    border: 0.1em solid #8b0000;
+    margin: 0.1em;
+    width: 20%;
+    float: right;
+    box-sizing: border-box;
+    text-align: justify;
+    text-justify: auto;
+    
+    
+
+}
+#ds{
+    text-align: right;
+    margin-right: 5%
+
+}
+
+
