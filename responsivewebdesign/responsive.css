@@ -1,0 +1,18 @@
+@-ms-viewport { width: device-width; }
+
+@media only screen and (min-width: 800px) {
+    /* CSS code that only applies to screens and to window sizes wider or equal to 800px */
+    body {
+        background-color: lime;
+    }
+}
+.img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+main {
+    background-color: white;
+    max-width: 800px
+    padding: 2em;
+}
