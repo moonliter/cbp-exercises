@@ -1,0 +1,200 @@
+/*GENERAL*/
+body {
+  font-family: 'Alegreya', serif;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+
+ 
+}
+
+*,
+*:before,
+*:after{ box-sizing: border-box; }
+/*HEADER*/
+img {
+  float: left;
+ 
+  
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0;
+  padding-right: 2px;
+}
+  li {
+ list-style-type: none;
+ color: #173a98;
+ font-size: 17px;
+ padding: 18px;
+ font-family: 'Alegreya', serif;
+ 
+
+  }
+  
+  /*BLOCK 1 */
+h1 {
+  font-size: 4.5em;
+  color: white;
+  font-family: 'Alegreya', serif;
+  font-style: normal;
+  text-shadow: 2px 2px black;
+  margin-bottom: 20px;
+}
+
+  h2 {
+  font-size: 3em;
+  color: white;
+  font-family: 'Alegreya', serif;
+  font-style: normal;
+  text-shadow: 2px 2px black;
+  margin-top: 15px;
+}
+
+
+
+}
+/*BLOCK 1 */
+h1 {
+  font-size: 4.5em;
+  color: white;
+  font-family: 'Alegreya', serif;
+  font-style: normal;
+  text-shadow: 2px 2px black;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 3em;
+  color: white;
+  font-family: 'Alegreya', serif;
+  font-style: normal;
+  text-shadow: 2px 2px black;
+  margin-top: 15px;
+}
+.block1 {
+  clear: both;
+  background-image: url('../second chalenge/challenge/img/enchant-your-guests.jpg');
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1281px;
+  margin-left: 2px;
+  right: 1599px;
+  margin-bottom: -7px;
+	position: center;
+}
+.package {
+  background-color: #3B6B04;
+  width: 220px;
+  height: 67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+  font-size: 23px;
+  font-weight: 700;
+  margin: 20px;
+  overflow: hidden;
+  -webkit-box-shadow: -6px 8px 84px 3px #b3adb3;
+  -moz-box-shadow: -6px 8px 84px 3px #b3adb3;
+  box-shadow: -6px 8px 84px 3px #b3adb3;
+}
+.features {
+  background-color: #173493;
+  width: 1281px;
+  height: 130px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+  padding-right: 0;
+  line-height: 1px;
+}
+.features img {
+  margin: 1px;
+}
+.features p {
+  margin-top: 10px;
+}
+.quality,
+.reliability,
+.speed {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.quality {
+  padding-left: 250px;
+}
+.speed {
+  padding-right: 250px;
+
+ /*@media (max-width: 600){
+        flex-direction: column;
+    }*/
+}
+.column,
+h3 {
+  margin-left: 35px;
+ 
+}
+h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.column {
+  line-height: 25px;
+}
+
+div {
+	margin: 0px;
+	padding: 0px;
+}
+.picturesrow1 {
+	display: flex;
+	justify-content: center;
+	margin-top: 42px;	
+
+}
+
+.picturesrow2 {
+	display: flex;	
+	justify-content: center;
+	margin-bottom: 42px;
+}
+.bottomblue {
+	max-width: 1280px;
+	height: 420px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #173493;
+	color: white;
+	padding-top: 30px;	
+}
+
+.bottomblue h2 {
+	margin-left: 80px;
+	font-family: Alegreya;
+	font-size: 2.7em;
+	margin-bottom: 5px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.paragraph {
+	height: 250px;
+	width: 370px;
+	float: left;
+	margin-left: 30px;
+	line-height: 170%;
+
+}
